@@ -97,12 +97,12 @@
     print_r($newArray);
 
     if (in_array("ify", $newArray)) {
-        echo "This is true"
+        echo "This is true";
     }
-    elseif(in_array("Ify")){
-        echo "This is the 2nd"
+    elseif(in_array("ifyy")){
+        echo "This is the 2nd";
     }
     else{
-        echo "This is false"
+        echo "This is false";
     };
 ?>
